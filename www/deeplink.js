@@ -82,7 +82,7 @@ var IonicDeeplink = {
   },
 
   routeWithNavController: function (navController, paths, options, success, error) {
-    console.log("routeWithNavController: ",routeWithNavController);
+    console.log("navController: ",navController);
     var self = this;
 
     var defaultOptions = {
